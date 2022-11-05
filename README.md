@@ -53,7 +53,12 @@ We can access GitHub profile details like name, bio, and most recent repository 
 
 
 
+
 ## SCREENSHOTS ##
+**01**
+![Screenshot (2140)](https://user-images.githubusercontent.com/88100576/200123688-fdae41b8-38ae-4b40-85d9-45d4f52b9a76.png)
+**02**
+![Screenshot (2141)](https://user-images.githubusercontent.com/88100576/200123689-95952354-df65-4d09-8b2f-6e4ee0512f06.png)
 
 
 ## CREATED BY ##
