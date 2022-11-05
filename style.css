@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    background-image: linear-gradient(to bottom, #172f18, #00352d, #003851, #00366f, #362470);
+}
+
+.content{
+    border: 1px solid red;
+}
+.githubIcon{
+    font-size: 43px;
+    margin-right: 10px;
+    color: #6ca6e4;
+}
+#form{
+    width: 100%;
+    max-width: 680px;
+    display: flex;
+}
+
+#form input{
+    width: 100%;
+    display: block;
+    padding: 10px;
+    border-radius: 15px;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: rgba(2, 11, 13, 0.633);
+    background-image: linear-gradient(to bottom, #c1c3c1, #c2ccca, #c3d5da, #cddbeb, #e3def5);
+    
+}
+
+#form input:focus{
+    outline: none;
+}
+#contentInformation{
+    text-decoration: none;
+}
+
+.card{
+    max-width: 900px;
+    border: 3px solid rgb(101, 176, 255);  
+    border-radius: 10px;    
+    display: flex;
+    padding: 2rem;
+    margin: 0 1.5rem;
+    background-image: linear-gradient(to bottom, #1d2c51, #132643, #0e2034, #0c1926, #091219);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.avatar{
+    border-radius: 50%;
+    border: 4px solid rgb(101, 176, 255);
+    height: 150px;
+    width: 150px;
+    margin-top: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.userInformation{
+    margin-left: 0.6rem;
+    border: 1px solid rgba(0, 255, 26, 0.589);
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    padding: 4px;
+}
+
+.userInformation h2{
+    margin-top: 0;
+    font-weight: bold;
+    color: white;
+    margin-left: 0.5rem;   
+}
+.userInformation p{
+    color: rgba(255, 255, 255, 0.834);
+    margin-left: 0.5rem;
+}
+
+.userInformation ul {
+    list-style-type: none;
+    justify-content: space-between;
+    display: flex;
+    padding: 0;
+    max-width: 400px;
+    
+
+}
+
+.userInformation ul li{
+    display: flex;
+    align-items: center;
+    margin-left: 0.5rem;
+    /* border: 1px solid red; */
+    color: rgb(124, 196, 255);
+}
+
+.userInformation ul li strong{
+    font-size: 0.8rem;
+    margin-left: 0.3rem;
+    color: rgb(58, 219, 248);
+}
+
+#profleRepos{
+    margin-left: 0.5rem;
+}
+.repo{
+    text-decoration: none;
+    font-size: 0.7rem;
+    padding: 0.25rem 0.5rem;
+    margin-bottom: 0.5rem;
+    margin-right: 0.5rem;
+    display: inline-block;
+    border-radius: 5px;
+    border: 1px solid rgb(38, 62, 90);
+    color: skyblue;
+    cursor: pointer;
+    transition: 0.3s all;
+}
+.repo:hover{
+    background-color: #13073b;
+    color: rgb(128, 215, 250);
+}
+
+
+.followProfile{
+    margin-left:0.3rem;
+    font-weight: 300;
+    /* font-family: 'Roboto', sans-serif; */
+    padding: 1px;
+    background-color: rgba(7, 51, 11, 0.589);
+    /* border: 1px solid red; */
+
+    border-radius: 3px;
+}
+.followProfile a{
+    text-decoration: none;
+    color: skyblue;
+    font-size: 0.8rem;
+    
+    transition:   0.7s ease-out;
+}
+.followProfile a:hover{
+    color: rgb(110, 214, 255);
+    font-weight: 200;
+}
+.problemOcc{
+    font-family: 'Roboto', sans-serif;
+    color: skyblue;
+}
+/* temp-media-query */
+@media(max-width:500px){
+    .card{
+        flex-direction: column;
+        align-items: center;
+    }
+    .userInformation{
+        max-width: 400px;
+    }
+}
+/* @mondalCodeHub(October 2022) */
